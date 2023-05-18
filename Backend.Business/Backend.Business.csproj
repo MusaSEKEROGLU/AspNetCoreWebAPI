@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Backend.DataAccess\Backend.DataAccess.csproj" />
+    <ProjectReference Include="..\Backend.Entities\Backend.Entities.csproj" />
+    <ProjectReference Include="..\Backend.Shared\Backend.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
